@@ -1,22 +1,19 @@
-
-<html> Formulir Tambah / Ubah Data
+<h2>Formulir Entry Data</h2>
 <hr>
 <form action="simpan-baru.php" method="post">
     <table>
         <tr>
-            <td> NIM </kd>
-            <td>: <input type="text" name="nim"></td>
+            <td>KODE </td>
+            <td>: <input type="text" name="kode"></td>
         </tr>
         <tr>
-            <td>NAMA</td>
-            <td>: <input type="text" name="nama"></td>
+            <td>NAMA BARANG</td>
+            <td> : <input type="text" name="namaBarang"></td>
         </tr>
         <tr>
-            <td>JURUSAN</td>
-            <td> : <input type="text" name="jurusan"></td>
+            <td>STOK</td>
+            <td> : <input type="text" name="stok"></td>
         </tr>
     </table>
     <input type="submit" value="Simpan">
-    <button type="button" onclick="window.location.href='main.php'">Batal</button>
 </form>
-</html>
