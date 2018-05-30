@@ -6,7 +6,8 @@ class Koneksi {
     private $db = "id5514893_stokapp";
 
     function getKoneksi(){
-        return new mysqli($this->server, $this->username,$this->password, $this->db);
+        return new mysqli($this->server, $this->username,
+        $this->password, $this->db);
     }
 }
 ?>
